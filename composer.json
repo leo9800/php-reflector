@@ -1,0 +1,22 @@
+{
+    "name": "leo980/reflector",
+    "description": "Helper function for reflecting private/protected class properties and methods. For unit-testing purposes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/reflect_get_property.php",
+            "src/reflect_set_property.php",
+            "src/reflect_method.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Leo",
+            "email": "hardrain980@protonmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
